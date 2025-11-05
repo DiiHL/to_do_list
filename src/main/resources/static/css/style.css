@@ -1,0 +1,79 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    min-height: 100vh;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-container .card {
+    width: 100%;
+    max-width: 450px;
+}
+
+.nav-tabs .nav-link {
+    color: #eee;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #ff758c;
+    border-color: #ff758c;
+}
+
+.btn-primary:hover {
+    background-color: #ff5c77;
+    border-color: #ff5c77;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.list-group-item-light {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.list-group-item-light span {
+    text-decoration: line-through;
+    color: #555;
+}
